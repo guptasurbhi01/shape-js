@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    height: 100vh;
+}
+#outer{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    border-radius: 50%;
+    background-color: green;
+    transition: background-color 0.75s ease-in-out;
+}
+#inner{
+        height: 75px;
+    width: 75px;
+    top: 270px;
+    position: absolute;
+    /* margin: 0 auto; */
+    background-color: white;
+}
